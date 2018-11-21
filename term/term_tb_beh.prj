@@ -1,0 +1,2 @@
+vhdl work "term.vhd"
+vhdl work "term_tb.vhd"

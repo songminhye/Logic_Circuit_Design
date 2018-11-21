@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "D:/VHDL_PM_2016110660/term/term_tb_isim_beh.exe" -prj "D:/VHDL_PM_2016110660/term/term_tb_beh.prj" "work.term_tb" 

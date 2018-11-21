@@ -1,0 +1,18 @@
+Running: C:\Xilinx\14.5\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o D:/VHDL_PM_2016110660/term/term_tb_isim_beh.exe -prj D:/VHDL_PM_2016110660/term/term_tb_beh.prj work.term_tb 
+ISim P.58f (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "D:/VHDL_PM_2016110660/term/term.vhd" into library work
+Parsing VHDL file "D:/VHDL_PM_2016110660/term/term_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture behavioral of entity term [term_default]
+Compiling architecture behavior of entity term_tb
+Time Resolution for simulation is 1ps.
+Compiled 5 VHDL Units
+Built simulation executable D:/VHDL_PM_2016110660/term/term_tb_isim_beh.exe
+Fuse Memory Usage: 31288 KB
+Fuse CPU Usage: 482 ms

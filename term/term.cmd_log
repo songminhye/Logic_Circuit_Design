@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "D:/VHDL_PM_2016110660/term/term.xst" -ofn "D:/VHDL_PM_2016110660/term/term.syr" 
+xst -intstyle ise -ifn "D:/VHDL_PM_2016110660/term/term.xst" -ofn "D:/VHDL_PM_2016110660/term/term.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc4vfx12-ff668-10 term.ngc term.ngd  
+map -intstyle ise -p xc4vfx12-ff668-10 -global_opt off -cm area -ir off -pr off -c 100 -o term_map.ncd term.ngd term.pcf 
+par -w -intstyle ise -ol high -t 1 term_map.ncd term.ncd term.pcf 
+trce -intstyle ise -v 3 -s 10 -n 3 -fastpaths -xml term.twx term.ncd -o term.twr term.pcf 
